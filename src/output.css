@@ -187,6 +187,9 @@
   .mt-0 {
     margin-top: 0px;
   }
+  .mt-\[0px\] {
+    margin-top: 0px;
+  }
   .mt-\[5px\] {
     margin-top: 5px;
   }
@@ -253,14 +256,38 @@
   .w-\[50px\] {
     width: 50px;
   }
+  .w-\[60px\] {
+    width: 60px;
+  }
+  .w-\[65px\] {
+    width: 65px;
+  }
+  .w-\[75px\] {
+    width: 75px;
+  }
+  .w-\[80px\] {
+    width: 80px;
+  }
+  .w-\[85px\] {
+    width: 85px;
+  }
   .w-\[100\%\] {
     width: 100%;
   }
   .w-\[100px\] {
     width: 100px;
   }
+  .w-\[160px\] {
+    width: 160px;
+  }
+  .w-\[213px\] {
+    width: 213px;
+  }
   .w-\[400px\] {
     width: 400px;
+  }
+  .w-\[px\] {
+    width: px;
   }
   .flex-shrink {
     flex-shrink: 1;
@@ -303,6 +330,12 @@
   }
   .justify-start {
     justify-content: flex-start;
+  }
+  .gap-\[0px\] {
+    gap: 0px;
+  }
+  .gap-\[10px\] {
+    gap: 10px;
   }
   .gap-\[15px\] {
     gap: 15px;
@@ -359,6 +392,15 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .p-\[0px_20px\] {
+    padding: 0px 20px;
+  }
+  .p-\[5px_20px\] {
+    padding: 5px 20px;
+  }
+  .p-\[10px_5px_50px\] {
+    padding: 10px 5px 50px;
+  }
   .p-\[10px_20px\] {
     padding: 10px 20px;
   }
@@ -386,11 +428,29 @@
   .p-\[30px_40px\] {
     padding: 30px 40px;
   }
+  .p-\[50px_20px_10px\] {
+    padding: 50px 20px 10px;
+  }
   .p-\[80px_20px\] {
     padding: 80px 20px;
   }
+  .py-\[04px\] {
+    padding-block: 04px;
+  }
+  .py-\[20px\] {
+    padding-block: 20px;
+  }
+  .py-\[30px\] {
+    padding-block: 30px;
+  }
+  .py-\[40px\] {
+    padding-block: 40px;
+  }
   .py-\[50px\] {
     padding-block: 50px;
+  }
+  .py-\[px\] {
+    padding-block: px;
   }
   .pb-\[50px\] {
     padding-bottom: 50px;
@@ -535,6 +595,12 @@
     .lg\:h-\[40px\] {
       height: 40px;
     }
+    .lg\:w-\[1px\] {
+      width: 1px;
+    }
+    .lg\:w-\[16-\] {
+      width: 16-;
+    }
     .lg\:w-\[40px\] {
       width: 40px;
     }
@@ -543,6 +609,18 @@
     }
     .lg\:w-\[130px\] {
       width: 130px;
+    }
+    .lg\:w-\[140px\] {
+      width: 140px;
+    }
+    .lg\:w-\[150px\] {
+      width: 150px;
+    }
+    .lg\:w-\[160px\] {
+      width: 160px;
+    }
+    .lg\:w-\[170px\] {
+      width: 170px;
     }
     .lg\:w-\[250px\] {
       width: 250px;
@@ -574,8 +652,26 @@
     .lg\:flex-row {
       flex-direction: row;
     }
+    .lg\:gap-\[30px\] {
+      gap: 30px;
+    }
+    .lg\:gap-\[50px\] {
+      gap: 50px;
+    }
+    .lg\:gap-\[100px\] {
+      gap: 100px;
+    }
     .lg\:gap-\[110px\] {
       gap: 110px;
+    }
+    .lg\:gap-\[150px\] {
+      gap: 150px;
+    }
+    .lg\:gap-\[150пшpx\] {
+      gap: 150пшpx;
+    }
+    .lg\:gap-\[200px\] {
+      gap: 200px;
     }
     .lg\:gap-x-\[35px\] {
       column-gap: 35px;
@@ -583,8 +679,17 @@
     .lg\:self-auto {
       align-self: auto;
     }
+    .lg\:p-\[0px_150px\] {
+      padding: 0px 150px;
+    }
+    .lg\:p-\[5px_150px\] {
+      padding: 5px 150px;
+    }
     .lg\:p-\[10px_150px\] {
       padding: 10px 150px;
+    }
+    .lg\:p-\[10px_150px_80px\] {
+      padding: 10px 150px 80px;
     }
     .lg\:p-\[12px\] {
       padding: 12px;
@@ -592,14 +697,26 @@
     .lg\:p-\[20px\] {
       padding: 20px;
     }
+    .lg\:p-\[80px_150px_10px\] {
+      padding: 80px 150px 10px;
+    }
     .lg\:p-\[150px_150px\] {
       padding: 150px 150px;
+    }
+    .lg\:p-\[px_150px\] {
+      padding: px 150px;
     }
     .lg\:px-\[150px\] {
       padding-inline: 150px;
     }
+    .lg\:py-\[40px\] {
+      padding-block: 40px;
+    }
     .lg\:py-\[80px\] {
       padding-block: 80px;
+    }
+    .lg\:py-\[px\] {
+      padding-block: px;
     }
     .lg\:text-start {
       text-align: start;
